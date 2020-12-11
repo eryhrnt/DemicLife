@@ -1,0 +1,95 @@
+html, body{
+	font-family: Roboto;
+	background-size: cover;
+	margin: 0;
+  	padding: 0;
+  	background-image: url(https://uvmbored.com/wp-content/uploads/2016/10/discussion.jpg);
+  	background-attachment: fixed;
+  	background-size: 100% 170%;
+  	
+}
+
+header{
+	background-color: #343D52;
+	padding: 10px;
+}
+
+.logo img{
+	width: 90px;
+	height: 65px;
+	position: absolute;
+	left: 170px;
+	top: 15px;
+}
+
+.fitur{
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	
+}
+
+.fitur b a{
+	font-size: 24px; 
+	margin-left: 10px;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	color: lightblue;
+}
+
+.fitur b a:hover{
+	color: white;
+}
+
+button{
+	padding: 10px 25px;
+	background-color: lightblue;
+	border: none;
+	border-radius: 50px;
+	transition: all 0.3s ease 0s;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: white;
+}
+
+article{
+	padding-top: 60px;
+	padding-left: 400px;
+	padding-right: 400px;
+	position: relative;
+	color: white;
+}
+
+.konten{
+	background-color: #141e2f;
+	padding: 30px;
+	border-radius: 25px;
+	opacity: 0.9;
+}
+
+article h2{
+	font-size: 36px;
+}
+
+article a{
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+
+article a:hover{
+	color: #009dff;
+}
+
+section img{
+	width: 100%
+}
+
+hr{
+	color: white;
+}

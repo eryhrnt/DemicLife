@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diet</title>
+  <link rel="stylesheet" type="text/css" href="css/Calorie_Calculator.css">
+</head>
+<body>
+  <header>
+    <div class="judul">
+      <h1 style="color: white">DemicLife</h1>
+    </div>
+
+    <div class="logo">
+      <img src="asset/biohazard.png">
+    </div>
+    <div class="fitur">
+      <b><a href="homeDemic.html" style="color: lightblue">Home</a></b>
+      <b><a href="forum.html" style="color: lightblue">Forum</a></b>
+      <b><a href="Calorie Calculator.html" style="color: lightblue">Diet</a></b>
+
+      <a href="login.html" class="button1"><button><b>Masuk</b></button></a>
+      <a href="sign_in.html" class="button2"><button><b>Daftar</b></button></a>
+    </div>
+    
+  </header>
+
+  <br>
+
+  <div class="calc-outer-wrap">
+  <div id="form-error" style="display:none;"></div>
+  <form class="calc-form" id="calc-form">
+    <div class="form-fields">
+
+      <div class="field-outer">
+        <label for="distance" class="top-label number1">Umur & Kelamin:</label>
+        <div class="field-items">
+          <div class="field field-medium number1">         
+            <input type="text" name="Umur" id="Umur" inputmode="numeric" pattern="[0-9]*">
+          </div><!--  /.field-medium -->
+
+          <div class="field-medium klmn">
+            <!--<label for="distance" class="scndTop-label">Kelamin:</label> <br> <br> -->
+              <select name="Kelamin">
+                <option value="Perempuan">Perempuan</option>
+                <option value="Laki-Laki">Laki-Laki</option>
+                       
+              </select>
+          </div><!--  /.field-medium -->
+        </div><!--  /.field-items -->
+      </div><!--  /.field-outer -->
+
+      <div class="field-outer number2">
+        <label for="Tinggi" class="top-label">Tinggi:</label>
+        <div class="field-items">
+          <div class="field">
+            <input type="text" name="Tinggi_ft" id="Tinggi-ft" inputmode="numeric" pattern="[0-9]*">
+            <label for="Tinggi-ft">feet</label>
+          </div><!--  /.field -->
+          <div class="field">
+            <input type="text" name="Tinggi_in" id="Tinggi-in" inputmode="numeric" pattern="[0-9]*">
+            <label for="Tinggi-in">inch</label>
+          </div><!--  /.field -->
+         <div class="field">
+            <input type="text" name="Tinggi_cm" id="Tinggi-cm" inputmode="numeric" pattern="[0-9]*">
+            <label for="Tinggi-cm">atau centimeter</label>
+          </div><!--  /.field -->        
+        </div><!--  /.field-items -->
+      </div><!--  /.field-outer -->
+
+      <div class="field-outer number3">
+        <label for="Berat_Badan" class="top-label">Berat Badanmu:</label>
+        <div class="field-items">
+          <div class="field field-medium">
+            <input type="text" name="beratBadan" id="beratBadan" inputmode="numeric" pattern="[0-9]*">
+          </div><!--  /.field-medium -->
+          <div class="field-small">
+            <select name="beratBadan_unit">
+              <option value="lb">lb</option>
+              <option value="kg">kg</option>
+            </select>
+          </div><!--  /.field-small -->
+        </div><!--  /.field-items -->
+      </div><!--  /.field-outer -->
+     <div class="btn-wrap field-outer">
+      <button class="form-submit">Hitung</button>
+    </div>
+    </div><!--  /.form fields -->
+
+
+  </form>
+  <div id="results" style="display:none;"></div>
+  </div><!--  /.calc-outer-wrap -->
+
+  <br>
+
+<div class="container">
+  <h3>Recomendasi bahan makanan yang cocok untuk diet, lengkap dengan kalorinya :</h3>
+
+  <br>
+  <br>
+
+  <div class="list1">
+    <h3>Biji-bijian (penyajian per-1 cup) :</h3>
+
+    <br>
+
+    <img src="asset/pexels-mike-1192053.jpg" class="img1">
+
+    <br>
+
+    <ul>
+ 
+      <li>Whole oats : 379 calories</li>
+      <li>Beras merah : 216 calories</li>
+      <li>Barley : 354 calories</li>
+      <li>Buckwheat : 343 calories</li>
+      <li>Quinoa : 222 calories</li>
+      <li>Jagung : 177 calories</li>
+      <li>kacang-kacangan(lentils) : 230 calories</li>
+ 
+    </ul>
+  </div> <!-- /.list1 -->
+
+  <br>
+
+  <div class="list2">
+
+    <h3>Daging :</h3>
+    
+    <br>
+
+    <img src="asset/pexels-nicolas-postiglioni-1927383-2.jpg" class="img2">
+
+    <br>
+
+    <ul>
+ 
+      <li>Dada ayam, paha ayam, sayap ayam : 165 calories, 209 calories, 203 calories</li>
+      <li>Daging kelinci : 175 calories</li>
+      <li>Daging rusa : 135 calories</li>
+      <li>Daging burung dara/merpati : 114 calories</li>
+      <li>Daging burung unta : 163 calories</li>
+      <li>Daging salmon : 120 calories</li>
+      <li>Daging tuna : 142 calories</li>
+ 
+    </ul>
+
+  </div> <!-- /.list2 --> <br>
+
+  <h3>Daftar menu makanan, cemilan dan minuman sehari-hari, lengkap dengan kalorinya :</h3>
+
+  <br>
+
+  <div class="list3">
+
+    <h3>Menu makanan (per-1 porsi) :</h3>
+    
+    <br>
+
+    <img src="asset/culinary-4498129_1920.jpg" class="img3">
+
+    <br>
+    
+    <ul>
+      
+      <li>Bakso daging sapi : 444 calories</li>
+      <li>Mie ayam dengan pangsit : 510 calories</li>
+      <li>Soto ayam dengan nasi : 540 calories</li>
+      <li>Bubur ayam : 372 calories</li>
+      <li>Gado-gado : 318 calories</li>
+      <li>Nasi goreng : 583 calories</li>
+      <li>Sate ayam tanpa lontong : 350 calories</li>
+      <li>Sate ayam lengkap : 681 calories</li>
+      <li>Batagor tanpa kentang : 280 calories</li>
+      <li>Siomay (lengkap) : 500 calories</li>
+      <li>Pempek : 310 calories</li>
+      <li>Mie instan : 400 calories</li>
+      <li>Sayur sop : 72 calories</li>
+      <li>Tumis tahu : 145 calories</li>
+      <li>Karedok : 169 calories</li>
+      <li>Gudangan : 112 calories</li>
+      <li>Sayur asem : 80 calories</li>
+      <li>Nasi rawon : 680 calories</li>
+      <li>Nasi pecel : 496 calories</li>
+      <li>Kebab : 620 calories</li>
+      <li>Gudeg tanpa nasi : 127 calories</li>
+      <li>Gudeg lengkap : 306 calories</li>
+      <li>Burger : 233-257 calories</li>
+      <li>Spaghetti : 329 calories</li>
+      <li>Pizza 1 porsi dan 1 iris : 2647 calories dan 298 calories</li>
+      <li>Dim sum ayam & udang per-buah : 130 calories</li>
+      <li>Tteokbokki : 800-1,000 calories</li>
+
+    </ul>
+
+    <br>
+
+    <h3>Cemilan :</h3>
+    
+    <br>
+
+    <img src="asset/lumpia-4983901_1920.jpg" class="img4">
+
+    <br>
+
+    <ul>
+      
+      <li>Gorengan 1-buah : max 140 calories</li>
+      <li>Lumpia 1-buah : 65 calories</li>
+      <li>Martabak manis : 347 calories</li>
+      <li>Banana nugget 1-buah : 200 calories</li>
+      <li>Hot dog kentang 1-buah : 260 calories</li>
+      <li>Kue klepon 5-buah : 206 calories</li>
+      <li>Kue lumpur 2-buah : 250 calories</li>
+      <li>Kue lapis legit 3-potong : 388 calories</li>
+      <li>Kue lupis ketan 1-potong : 163 calories</li>
+      <li>Kue onde-onde 1-buah : 200 calories</li>
+      <li>Biskuit isi 1-buah : 120 calories</li>
+      <li>Soyjoy bar : 130 calories</li>
+      <li>Lay's keripik kentang per-bungkus : 110 calories</li>
+      <li>Pringles per-25 gram : 130 calories</li>
+      <li>Arem-arem : 186 calories</li>
+      <li>Risoles (tergantung isi) : 96 calories</li>
+      <li>Pop-corn : 100 calories</li>
+      <li>Donat indomie per-porsi : 1,005 calories</li>
+      <li>Salted egg fish skin (50 gram) : 320 calories</li>
+      
+    </ul>
+
+    <br>
+
+    <h3>Minuman :</h3>
+    
+    <br>
+
+    <img src="asset/boba-4402055_1920.jpg" class="img5">
+
+    <br>
+
+    <ul>
+      
+      <li>Susu putih : 250 calories</li>
+      <li>Susu skim rendah lemak : 125 calories</li>
+      <li>Kopi (220 ml) : 15,4 calories</li>
+      <li>Teh (270 ml) : 29 calories</li>
+      <li>Teh hijau (350 ml) : 2 calories</li>
+      <li>Lemonade (350 ml) : 99 calories</li>
+      <li>Jus buah (250 ml) : 117 calories</li>
+      <li>Chocolate milkshake (350 ml) : 238 calories</li>
+      <li>Strawberry milkshake (300 ml) : 320 calories</li>
+      <li>Soft drinks (350 ml) : 153 calories</li>
+      <li>Diet coke (350 ml) : 0-7 calories</li>
+      <li>Sport drinks (350 ml) : 94 calories</li>
+      <li>Energy drinks (245 ml) : 105 calories</li>
+      <li>Beer (350 ml) : 155 calories</li>
+      <li>Soft beer (350 ml) : 104 calories</li>
+      <li>Wine (150 ml) : 125 calories</li>
+      <li>Champagne (120 ml) : 89 calories</li>
+      <li>Vodka, rum, wisky, gin (40% alchohol ukuran 45 ml) : 96 calories</li>
+      <li>Boba milk (700 ml) : 455 calories</li>
+      <li>Thai tea (474 ml) : 369 calories</li>
+      <li>Creamy mango smoothies per-gelas : 574 calories</li>
+      <li>Es kepal milo per-porsi : 926 calories</li>
+      <li>Es kopi dengan full cream per-gelas : 180 calories</li>
+
+    </ul>
+
+  </div>
+</div> <!-- /.container -->
+
+  <script type="text/javascript" src="javascript/Calorie_Calculator.js"></script>
+
+</body>
+</html>

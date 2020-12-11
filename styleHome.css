@@ -1,0 +1,142 @@
+html, body{
+	font-family: roboto;
+	background-size: cover;
+	margin: 0;
+  	padding: 0;
+  	position: relative;
+}
+
+header{
+	background-color: #343D52;
+	padding: 10px;
+	left: 0;
+	top: 0;
+}
+
+section img{
+	width: 100%
+}
+
+.logo img{
+	width: 90px;
+	height: 65px;
+	position: absolute;
+	left: 170px;
+	top: 15px;
+}
+
+.fitur{
+	position: absolute;
+	top: 50px;
+	right: 60px;
+	display: inline-block;
+}
+
+.fitur b a{
+	font-size: 24px; 
+	margin-left: 10px;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	color: lightblue;
+}
+
+.fitur b a:hover{
+	color: white;
+}
+
+button{
+	padding: 10px 25px;
+	background-color: lightblue;
+	border: none;
+	border-radius: 50px;
+	transition: all 0.3s ease 0s;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: white;
+}
+
+aside img{
+	width: 15%;
+	float: right;
+	border-radius: 20px;
+}
+
+.pembukaan h1{
+	font-size: 48px;
+	font-family: Oswald;
+}
+
+.pembukaan p{
+	text-align: justify;
+}
+
+article{
+	background-color: white;
+	float: left;
+	width: 80.55%;
+	height: 568px;
+	padding: 30px;
+	position: relative;
+}
+
+
+.pforum{
+	background-color: #3792cb;
+	position: relative;
+	float: left;
+	padding: 20px;
+	width: 21%;
+	left: 220px;
+	border-radius: 25px;
+	color: white;
+	box-shadow: 5px 10px 8px #296d98;
+}
+
+.pforum b a{
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+.pforum b a:hover{
+	color: #343D52;
+}
+
+.pdiet{
+	background-color: #07da63;
+	position: relative;
+	float: right;
+	padding: 20px;
+	width: 21%;
+	right: 220px;
+	border-radius: 25px;
+	color: white;
+	box-shadow: 5px 10px 8px #06c258;
+}
+
+.pdiet b a{
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+
+.pdiet b a:hover{
+	color: #0c3229;
+}
+
+hr{
+	border-top: 0px;
+}
+
+footer{
+	background-color: #343D52; 
+	color: white;
+	padding: 1px;
+}

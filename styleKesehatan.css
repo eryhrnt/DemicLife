@@ -1,0 +1,94 @@
+html, body{
+	font-family: roboto;
+	background-size: cover;
+	margin: 0;
+  	padding: 0;
+  	background: url(https://i.pinimg.com/originals/34/68/60/34686062503969929731180623196848.jpg);
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	background-attachment: fixed; 
+  	
+}
+
+header{
+	background-color: #343D52;
+	padding: 10px;
+}
+
+.logo img{
+	width: 90px;
+	height: 65px;
+	position: absolute;
+	left: 170px;
+	top: 15px;
+}
+
+.fitur{
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	
+}
+
+.fitur b a{
+	font-size: 24px; 
+	margin-left: 10px; 
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	color: lightblue;                                                                                                             
+}
+
+.fitur b a:hover{
+	color: white;
+}
+
+button{
+	padding: 10px 25px;
+	background-color: lightblue;
+	border: none;
+	border-radius: 25px;
+	transition: all 0.3s ease 0s;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: white;
+}
+
+nav{
+	padding: 20px;
+	background-color: #296D98;
+}
+
+.navigasi b a{
+	font-size: 20px;
+	margin-left: 10px;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	color: white;
+}
+
+.navigasi b a:hover{
+	color: #343D52;
+}
+
+section .post{
+	padding-top: 30px;
+	padding-left: 50px;
+	color: white;
+}
+
+textarea{
+	font-size: 14px;
+	font-weight: normal;
+	font-family: roboto;
+	resize: none;
+	overflow-y: scroll;
+}
+
+.tabel{
+	background-color: #343D52; 
+}
